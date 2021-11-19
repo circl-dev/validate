@@ -20,7 +20,7 @@ import (
 	"strings"
 
 	"github.com/go-openapi/errors"
-	"github.com/go-openapi/spec"
+	"github.com/protodev-site/spec"
 )
 
 // Result represents a validation result set, composed of

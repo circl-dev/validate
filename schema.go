@@ -19,9 +19,9 @@ import (
 	"reflect"
 
 	"github.com/go-openapi/errors"
-	"github.com/go-openapi/spec"
 	"github.com/go-openapi/strfmt"
 	"github.com/go-openapi/swag"
+	"github.com/protodev-site/spec"
 )
 
 var (

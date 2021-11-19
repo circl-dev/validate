@@ -17,7 +17,7 @@ package validate
 import (
 	"fmt"
 
-	"github.com/go-openapi/spec"
+	"github.com/protodev-site/spec"
 )
 
 // ExampleValidator validates example values defined in a spec

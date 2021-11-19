@@ -1,11 +1,11 @@
 # Validation helpers
-[![Build Status](https://travis-ci.org/go-openapi/validate.svg?branch=master)](https://travis-ci.org/go-openapi/validate)
+[![Build Status](https://travis-ci.org/protodev-site/validate.svg?branch=master)](https://travis-ci.org/protodev-site/validate)
 [![Build status](https://ci.appveyor.com/api/projects/status/d6epy6vipueyh5fs/branch/master?svg=true)](https://ci.appveyor.com/project/fredbi/validate/branch/master)
-[![codecov](https://codecov.io/gh/go-openapi/validate/branch/master/graph/badge.svg)](https://codecov.io/gh/go-openapi/validate)
+[![codecov](https://codecov.io/gh/protodev-site/validate/branch/master/graph/badge.svg)](https://codecov.io/gh/protodev-site/validate)
 [![Slack Status](https://slackin.goswagger.io/badge.svg)](https://slackin.goswagger.io)
-[![license](http://img.shields.io/badge/license-Apache%20v2-orange.svg)](https://raw.githubusercontent.com/go-openapi/validate/master/LICENSE)
-[![Go Reference](https://pkg.go.dev/badge/github.com/go-openapi/validate.svg)](https://pkg.go.dev/github.com/go-openapi/validate)
-[![Go Report Card](https://goreportcard.com/badge/github.com/go-openapi/validate)](https://goreportcard.com/report/github.com/go-openapi/validate)
+[![license](http://img.shields.io/badge/license-Apache%20v2-orange.svg)](https://raw.githubusercontent.com/protodev-site/validate/master/LICENSE)
+[![Go Reference](https://pkg.go.dev/badge/github.com/protodev-site/validate.svg)](https://pkg.go.dev/github.com/protodev-site/validate)
+[![Go Report Card](https://goreportcard.com/badge/github.com/protodev-site/validate)](https://goreportcard.com/report/github.com/protodev-site/validate)
 
 This package provides helpers to validate Swagger 2.0. specification (aka OpenAPI 2.0). 
 
@@ -24,7 +24,7 @@ Reference can be found here: https://github.com/OAI/OpenAPI-Specification/blob/m
   * Minimum, Maximum, MultipleOf
   * FormatOf
 
-[Documentation](https://godoc.org/github.com/go-openapi/validate)
+[Documentation](https://godoc.org/github.com/protodev-site/validate)
 
 ## FAQ
 
@@ -33,6 +33,6 @@ Reference can be found here: https://github.com/OAI/OpenAPI-Specification/blob/m
 > No.
 > This package currently only supports OpenAPI 2.0 (aka Swagger 2.0).
 > There is no plan to make it evolve toward supporting OpenAPI 3.x.
-> This [discussion thread](https://github.com/go-openapi/spec/issues/21) relates the full story.
+> This [discussion thread](https://github.com/protodev-site/spec/issues/21) relates the full story.
 >
-> An early attempt to support Swagger 3 may be found at: https://github.com/go-openapi/spec3
+> An early attempt to support Swagger 3 may be found at: https://github.com/protodev-site/spec3

@@ -23,8 +23,8 @@ import (
 	"testing"
 
 	"github.com/go-openapi/errors"
-	"github.com/go-openapi/spec"
 	"github.com/go-openapi/strfmt"
+	"github.com/protodev-site/spec"
 	"github.com/stretchr/testify/assert"
 )
 

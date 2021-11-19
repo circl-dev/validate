@@ -23,10 +23,10 @@ import (
 	"testing"
 
 	"github.com/go-openapi/analysis"
-	"github.com/go-openapi/loads"
-	"github.com/go-openapi/loads/fmts"
-	"github.com/go-openapi/spec"
 	"github.com/go-openapi/strfmt"
+	"github.com/protodev-site/loads"
+	"github.com/protodev-site/loads/fmts"
+	"github.com/protodev-site/spec"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

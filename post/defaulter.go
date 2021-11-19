@@ -15,7 +15,7 @@
 package post
 
 import (
-	"github.com/go-openapi/validate"
+	"github.com/protodev-site/validate"
 )
 
 // ApplyDefaults applies defaults to the underlying data of the result. The data must be a JSON

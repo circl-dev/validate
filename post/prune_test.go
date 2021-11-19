@@ -23,9 +23,9 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/go-openapi/spec"
 	"github.com/go-openapi/strfmt"
-	validate "github.com/go-openapi/validate"
+	"github.com/protodev-site/spec"
+	validate "github.com/protodev-site/validate"
 )
 
 var pruneFixturesPath = filepath.Join("..", "fixtures", "pruning")

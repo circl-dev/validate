@@ -21,9 +21,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/go-openapi/loads"
-	"github.com/go-openapi/loads/fmts"
 	"github.com/go-openapi/strfmt"
+	"github.com/protodev-site/loads"
+	"github.com/protodev-site/loads/fmts"
 	"github.com/stretchr/testify/assert"
 )
 

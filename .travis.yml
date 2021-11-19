@@ -24,11 +24,11 @@ jobs:
     arch: amd64
     install:
     - GO111MODULE=off go get -u gotest.tools/gotestsum
-    - go get -u github.com/go-openapi/runtime@master
+    - go get -u github.com/protodev-site/runtime@master
     script:
-    - gotestsum -f short-verbose -- -timeout=30m github.com/go-openapi/runtime/...
+    - gotestsum -f short-verbose -- -timeout=30m github.com/protodev-site/runtime/...
 
-  # include go-openapi/runtime non reg job (run once)
+  # include protodev-site/runtime non reg job (run once)
   - go: 1.x
     arch: amd64
     install:

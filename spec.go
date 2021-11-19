@@ -23,9 +23,9 @@ import (
 	"github.com/go-openapi/analysis"
 	"github.com/go-openapi/errors"
 	"github.com/go-openapi/jsonpointer"
-	"github.com/go-openapi/loads"
-	"github.com/go-openapi/spec"
 	"github.com/go-openapi/strfmt"
+	"github.com/protodev-site/loads"
+	"github.com/protodev-site/spec"
 )
 
 // Spec validates an OpenAPI 2.0 specification document.

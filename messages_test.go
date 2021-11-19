@@ -24,8 +24,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/go-openapi/loads"
 	"github.com/go-openapi/strfmt"
+	"github.com/protodev-site/loads"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"gopkg.in/yaml.v2"
