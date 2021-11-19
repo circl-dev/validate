@@ -3,12 +3,12 @@ module github.com/protodev-site/validate
 go 1.14
 
 require (
-	github.com/protodev-site/analysis v0.22.0
+	github.com/protodev-site/analysis v0.23.0
 	github.com/go-openapi/errors v0.19.9
 	github.com/go-openapi/jsonpointer v0.19.5
-	github.com/protodev-site/loads v0.22.0
-	github.com/protodev-site/runtime v0.19.24
-	github.com/protodev-site/spec v0.21.0
+	github.com/protodev-site/loads v0.23.0
+	github.com/protodev-site/runtime v0.23.0
+	github.com/protodev-site/spec v0.23.0
 	github.com/go-openapi/strfmt v0.20.2
 	github.com/go-openapi/swag v0.19.14
 	github.com/stretchr/testify v1.7.0
