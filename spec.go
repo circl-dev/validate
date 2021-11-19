@@ -20,10 +20,10 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/go-openapi/analysis"
 	"github.com/go-openapi/errors"
 	"github.com/go-openapi/jsonpointer"
 	"github.com/go-openapi/strfmt"
+	"github.com/protodev-site/analysis"
 	"github.com/protodev-site/loads"
 	"github.com/protodev-site/spec"
 )

@@ -18,8 +18,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/go-openapi/analysis"
 	"github.com/go-openapi/strfmt"
+	"github.com/protodev-site/analysis"
 	"github.com/protodev-site/loads"
 	"github.com/protodev-site/spec"
 	"github.com/stretchr/testify/assert"
