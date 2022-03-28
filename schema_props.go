@@ -18,8 +18,8 @@ import (
 	"fmt"
 	"reflect"
 
+	"github.com/circl-dev/spec"
 	"github.com/go-openapi/strfmt"
-	"github.com/protodev-site/spec"
 )
 
 type schemaPropsValidator struct {

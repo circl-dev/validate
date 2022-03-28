@@ -17,7 +17,7 @@ package validate
 import (
 	"fmt"
 
-	"github.com/protodev-site/spec"
+	"github.com/circl-dev/spec"
 )
 
 // ExampleValidator validates example values defined in a spec

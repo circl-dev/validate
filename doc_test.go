@@ -21,10 +21,10 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/go-openapi/strfmt"   // OpenAPI format extensions
-	"github.com/protodev-site/loads" // Spec loading
-	"github.com/protodev-site/spec"
-	"github.com/protodev-site/validate" // This package
+	"github.com/circl-dev/loads" // Spec loading
+	"github.com/circl-dev/spec"
+	"github.com/circl-dev/validate" // This package
+	"github.com/go-openapi/strfmt"  // OpenAPI format extensions
 	"github.com/stretchr/testify/require"
 )
 
@@ -184,7 +184,7 @@ func getSimpleSchema() *spec.Schema {
 }
 
 func Test_Issue102_Circular(t *testing.T) {
-	// assert that the issue is fixed in protodev-site/spec
+	// assert that the issue is fixed in circl-dev/spec
 	for _, fixture := range []string{
 		filepath.Join("fixtures", "bugs", "102", "fixture-102.json"),
 		filepath.Join("fixtures", "bugs", "123-validate", "fixture-123.json"),

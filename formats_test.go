@@ -5,8 +5,8 @@ import (
 	"reflect"
 	"testing"
 
+	"github.com/circl-dev/spec"
 	"github.com/go-openapi/strfmt"
-	"github.com/protodev-site/spec"
 	"github.com/stretchr/testify/assert"
 )
 

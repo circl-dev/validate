@@ -19,8 +19,8 @@ import (
 	"reflect"
 	"strings"
 
+	"github.com/circl-dev/spec"
 	"github.com/go-openapi/errors"
-	"github.com/protodev-site/spec"
 )
 
 // Result represents a validation result set, composed of

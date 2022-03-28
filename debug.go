@@ -39,7 +39,7 @@ func debugOptions() {
 }
 
 func debugLog(msg string, args ...interface{}) {
-	// A private, trivial trace logger, based on protodev-site/spec/expander.go:debugLog()
+	// A private, trivial trace logger, based on circl-dev/spec/expander.go:debugLog()
 	if Debug {
 		_, file1, pos1, _ := runtime.Caller(1)
 		validateLogger.Printf("%s:%d: %s", filepath.Base(file1), pos1, fmt.Sprintf(msg, args...))

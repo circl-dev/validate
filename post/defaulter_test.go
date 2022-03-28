@@ -23,9 +23,9 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
+	"github.com/circl-dev/spec"
+	"github.com/circl-dev/validate"
 	"github.com/go-openapi/strfmt"
-	"github.com/protodev-site/spec"
-	"github.com/protodev-site/validate"
 )
 
 var defaulterFixturesPath = filepath.Join("..", "fixtures", "defaulting")

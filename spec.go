@@ -20,12 +20,12 @@ import (
 	"sort"
 	"strings"
 
+	"github.com/circl-dev/analysis"
+	"github.com/circl-dev/loads"
+	"github.com/circl-dev/spec"
 	"github.com/go-openapi/errors"
 	"github.com/go-openapi/jsonpointer"
 	"github.com/go-openapi/strfmt"
-	"github.com/protodev-site/analysis"
-	"github.com/protodev-site/loads"
-	"github.com/protodev-site/spec"
 )
 
 // Spec validates an OpenAPI 2.0 specification document.

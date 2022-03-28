@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/protodev-site/spec"
+	"github.com/circl-dev/spec"
 )
 
 // defaultValidator validates default values in a spec.

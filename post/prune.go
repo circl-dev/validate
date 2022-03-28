@@ -15,7 +15,7 @@
 package post
 
 import (
-	"github.com/protodev-site/validate"
+	"github.com/circl-dev/validate"
 )
 
 // Prune recursively removes all non-specified fields from the underlying data of the result.

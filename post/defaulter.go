@@ -15,7 +15,7 @@
 package post
 
 import (
-	"github.com/protodev-site/validate"
+	"github.com/circl-dev/validate"
 )
 
 // ApplyDefaults applies defaults to the underlying data of the result. The data must be a JSON
